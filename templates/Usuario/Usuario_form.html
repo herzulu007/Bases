@@ -1,0 +1,20 @@
+{% extends 'templates_base/index.html' %}
+{% load staticfiles %}
+
+{%block content%}
+
+<form method="post">
+	{% csrf_token %}
+
+
+
+
+
+
+</form>
+   
+{% load bootstrap %}
+
+{{ form|bootstrap }}
+
+{%endblock%}

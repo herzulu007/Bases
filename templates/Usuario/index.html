@@ -1,0 +1,15 @@
+{% extends 'templates_base/index.html' %}
+{% load staticfiles %}
+
+{%block content %}
+
+<p class="mbr-text pb-3 mbr-fonts-style display-5">
+	que tipo de procedimiento desea realizar?  &nbsp;
+</p>
+	<div class="mbr-section-btn">
+		<a class="btn btn-md btn-secondary-outline display-3" href="//127.0.0.1:8000/Usuario/">Consulta estado de su solicitud</a>
+    	<a class="btn btn-md btn-primary-outline display-3" href="//127.0.0.1:8000/Usuario/">Crear usuario</a>
+    	<a class="btn btn-md btn-primary-outline display-3" href="//127.0.0.1:8000/Usuario/nuevo/">Nueva solicitud</a>
+    	<a class="btn btn-md btn-primary-inline display-3" href="//127.0.0.1:8000/">Regresar</a>
+    </div>
+{%endblock%}
